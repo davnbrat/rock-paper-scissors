@@ -20,7 +20,7 @@ let playGame = false;
 
 while(playGame == false){
     rounds++;
-    playerPick = prompt("Please choose rock, paper, or scissors").toLowerCase();
+    //playerPick = prompt("Please choose rock, paper, or scissors").toLowerCase();
     //check which player wins
     if(playerPick == "rock" && randPick == "scissors"){
         playerScore += 1
