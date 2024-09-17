@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="header">Rock Paper Scissors</div>
-    <div class = "button-contain">
-        <button id="btn">Rock</button>
-        <button id="btn">Paper</button>
-        <button id="btn">Scissors</button>
+    <div class="button-contain">
+      <button id="btn1">Rock</button>
+      <button id="btn2">Paper</button>
+      <button id="btn3">Scissors</button>
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
+    <div class="makechoice">Make a choice with the buttons above...</div>
+    <div class="scores-display">
+      <div class="player-score-display">Player 1 :</div>
+      <div class="computer-score-display">Player 2 :</div>
+    </div>
+    <div class="playercontainer">
+      <div class="player1">0</div>
+      <div class="player2">0</div>
+    </div>
 
+    <div class="vsdisplay">You Chose: Rock</div>
+    <div class="vsdisplaycomp">Computer Chose: Paper</div>
+    <button class="again">Play Again</button>
+    <script src="script.js"></script>
+  </body>
+</html>
